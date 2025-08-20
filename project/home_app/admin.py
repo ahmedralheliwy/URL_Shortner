@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import URL_Box
 
-# Register your models here.
+admin.site.register(URL_Box)
